@@ -1,0 +1,43 @@
+/*
+Selectores básicos:
+1) Etiquetas - Son elementos HTML.
+2) Identificadores - Atributo id (#).
+3) Clases - Atributo class (.).
+*/
+
+/*Usando etiquetas como selectores corremos el riesgo
+de aplicarles los diferentes estilos a todas las etiquetas
+cuando capaz queremos darle estilo a una etiqueta específica 
+de ese mismo 'tipo'.*/
+p {
+  color: midnightblue;
+}
+
+/*Dar estilos con id se considera mala práctica.*/
+/*No vamos a poder reutilizar estilos ya que un id 
+es una identificación única.*/
+#parrafo-dos {
+  background-color: skyblue;
+}
+
+/*Usar clases para dar estilos es la mejor opción. Nos
+permite reutilizar código CSS.*/
+.bg-skyblue {
+  background-color: steelblue;
+}
+
+.bg-steelblue {
+  background-color: steelblue;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.text-white {
+  color: white;
+}
