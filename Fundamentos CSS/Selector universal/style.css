@@ -1,0 +1,9 @@
+* {
+  font-family: sans-serif;
+}
+
+.selector-universal *{
+  font-weight: bold;
+  font-size: 32px;
+  color: red;
+}
