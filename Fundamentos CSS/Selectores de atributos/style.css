@@ -1,0 +1,39 @@
+.selectores-atributos a[href]{
+  color: orangered;
+}
+
+.selectores-atributos a[target="_blank"] {
+  font-weight: bold;
+}
+
+/* El comodín del * aplica el estilo si contiene
+el texto en cuestión en cualquier parte.*/
+.selectores-atributos a[href*="google"] {
+  font-size: 32px;
+}
+
+/*El comodín del ^ se aplica el estilo si contiene 
+el texto en cuestión al inicio.*/
+.selectores-atributos a[href^="http://"] {
+  color: blueviolet;
+}
+
+/*El comodín del $ se aplica el estilo si contiene 
+el texto en cuestión al final.*/
+.selectores-atributos a[href$=".com"] {
+  color: grey;
+}
+
+/*El comodín del ~ se aplica el estilo si contiene 
+el texto en cuestión en una lista separada por espacios.*/
+.selectores-atributos a[class~="cursos"] {
+  background-color: #008000;
+}
+
+/*El comodín del | se aplica el estilo si contiene 
+el texto en cuestión en una lista separada por 
+espacios y que después del texto en cuestión pueda venir
+un guión medio.*/
+.selectores-atributos a[class|="menu"] {
+  font-style: italic;
+}
