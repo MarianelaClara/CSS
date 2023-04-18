@@ -1,0 +1,49 @@
+/*
+Pseudoclases: dan estilos dependiendo del contexto, posicion o
+estado del elemento.
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+*/
+
+.form-pseudoclases *:required {
+  border-color: yellow;
+}
+
+.form-pseudoclases *:valid{
+  border-color: green;
+}
+
+.form-pseudoclases *:invalid{
+  border-color: red;
+}
+
+.form-pseudoclases *:focus{
+  background-color: skyblue;
+}
+
+.form-pseudoclases input:disabled{
+  background-color: palevioletred;
+}
+
+.form-pseudoclases a:hover{
+  background-color: yellow;
+}
+
+.menu a {
+  color: blue;
+}
+
+.menu a:visited {
+  color: gray;
+}
+
+.menu a:hover {
+  color: green;
+}
+
+.p-pseudoclases:hover {
+  font-weight: bold;
+}
+
+
+
+
