@@ -1,0 +1,34 @@
+/*Pseudoelementos: dan estilos a partes especificas
+de un elemento, se usa el :: para diferenciarlos de las pseudoclases.
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements*/
+
+.pagar::before {
+  content: "❤️";
+}
+
+.pagar::after {
+  content: "😍";
+}
+
+.precio::before{
+  font-weight: bold;
+  content:"$";
+}
+
+.p-pseudoelementos::first-letter {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.p-pseudoelementos::first-line {
+ color:orange;
+}
+
+.p-pseudoelementos::selection {
+  color:yellow;
+  background-color: black;
+ }
+
+.input-pseudoelementos::placeholder {
+  color: red;
+}
