@@ -1,0 +1,24 @@
+*) CAJA DE LINEA:
+	-- Ocupan el espacio necesario para mostrar su contenido.
+	-- No tienen dimensiones modificables (alto, ancho).
+	-- Permiten otros elementos a su lado.
+	-- Padding y margin solo empujan a elementos adyacentes en horizontal. NUNCA EN VERTICAL.
+
+*) CAJA DE BLOQUE:
+	-- Ocupan todo el ancho disponible, lo que genera saltos de linea.
+	-- Tienen dimensiones modificables (alto, ancho).
+	-- No permiten otros elementos a su lado (aunque especifique un ancho, siguen ocupando
+	   todo el espacio disponible, generando saltos de linea).
+
+*) PROPIEDAD DISPLAY:
+	- inline
+	- block
+	- inline-block: se comporta como un elemento en linea pero acepta modificar sus 
+	  		    dimensiones (alto y ancho).
+	- none: oculta el elemento, no se visualiza (peros si se carga el contenido). Este valor se 
+	        utliza para mostrar cierta parte de la interfaz o no dependiendo de los eventos que
+		  haga un usuario en la misma interfaz.
+	- table: valor que se usa cuando hacemos tablas.
+	- list-item: valor que se usa cuando hacemos listas (tanto ordenadas como desordenadas).
+	- flex: sirve para maquetar un sitio web.
+	- grid: sirve para maquetar un sitio web.
